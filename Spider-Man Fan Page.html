@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/My%20Computer/New%20folder/etc/Untitled-1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spider-Man Fan Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    color:#222;
+}
+
+header{
+    background:#c40000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background:#111;
+    padding:15px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:red;
+}
+
+.hero{
+    padding:40px;
+    text-align:center;
+}
+
+.hero img{
+    width:250px;
+    max-width:90%;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+button{
+    padding:10px 20px;
+    background:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin:10px;
+    border-radius:5px;
+}
+
+button:hover{
+    background:black;
+}
+
+/* wiki style section */
+.wiki{
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    padding:40px;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.wiki img{
+    width:250px;
+    border-radius:10px;
+}
+
+.wiki-text{
+    flex:1;
+    text-align:left;
+}
+
+footer{
+    text-align:center;
+    background:#111;
+    color:white;
+    padding:20px;
+    margin-top:20px;
+}
+
+@media(max-width:700px){
+    nav{
+        flex-direction:column;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🕷 Spider-Man Fan Page</h1>
+<p>Your Friendly Neighborhood Hero</p>
+</header>
+
+<nav>
+<a href="file:///C:/Users/My%20Computer/New%20folder/etc/Untitled-1.html#">Home</a>
+<a href="file:///C:/Users/My%20Computer/New%20folder/etc/Untitled-1.html#">Movies</a>
+<a href="file:///C:/Users/My%20Computer/New%20folder/etc/Untitled-1.html#">Villains</a>
+<a href="file:///C:/Users/My%20Computer/New%20folder/etc/Untitled-1.html#">Contact</a>
+</nav>
+
+<!-- intro section -->
+<section class="hero">
+<h2>Welcome!</h2>
+
+<img src="./Spider-Man Fan Page_files/Spiderman50.jpg">
+
+<p>
+Welcome to the web page Salamn built about Spider-Man using all three of his braincells. <br> and maybe used a TINY bit of AI&gt;:)
+</p>
+
+<button onclick="showMessage()">Click Me!!!</button>
+<h3 id="message"></h3>
+</section>
+
+<!-- wiki style section -->
+<section class="wiki">
+
+<img src="./Spider-Man Fan Page_files/The_Amazing_Spider-Man_poster.jpg">
+
+<div class="wiki-text">
+
+<h2>Andrew Garfield’s Spider-Man Story</h2>
+
+<p>
+Peter Parker is a smart but socially awkward high school student living in New York City.
+After discovering a hidden suitcase belonging to his father, he begins investigating Oscorp Industries.
+During his visit to Oscorp, he is bitten by a genetically modified spider, which gives him superhuman abilities.
+</p>
+
+<br>
+
+<p>
+At first, Peter uses his powers for personal reasons and enjoys the freedom they bring.
+However, after the tragic death of his Uncle Ben, he learns that “with great power comes great responsibility.”
+This moment changes him completely and pushes him to become Spider-Man, a protector of the city.
+</p>
+
+<br>
+
+<p>
+As Spider-Man, he faces powerful enemies like the Lizard while also trying to balance his relationship with Gwen Stacy.
+His journey is not just about fighting villains, but also about learning who he is and what kind of hero he wants to become.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+<p>Made with ❤️ by a Spider-Man Fan</p>
+</footer>
+
+<script>
+function showMessage(){
+document.getElementById("message").innerHTML =
+"🕸 With great power comes great responsibility!";
+}
+</script>
+
+
+</body></html>
